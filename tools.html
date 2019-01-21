@@ -28,12 +28,13 @@
     <section>
       <div class="tools">
         <h3 class="subheader">Tools</h3>
+		<p> This is a collection of tools that you can explore for your semester project. Homework assignments will also make use of some of these tools. <br><br>The tools fall into the following categories: <b><a href="#sat" style ="color:#439755">Sat Solvers</a></b> | <b><a href="#smt" style ="color:#439755">SMT Solvers</a></b> | <b><a href="#fmf" style ="color:#439755">Finite Model Finding</a></b> |  <b><a href="#verify" style ="color:#439755">Verification</a></b> | <b><a href="#bounded" style ="color:#439755">Bounded Verification</a></b> | <b><a href="#symbolic" style ="color:#439755">Symbolic Execution</a></b> | <b><a href="#mc" style ="color:#439755">Model Checking</a></b> | <b><a href="#synthesis" style ="color:#439755">Synthesis, Declarative Execution and Fault Localization</a></b> | <b><a href="#solver-aided" style ="color:#439755">Solver-Aided Languages</a></b></p>
         <table>
           <tr>
             <th>Tool</th>
             <th>Notes</th>
           </tr>
-		  <tr>
+		  <tr id="sat">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Sat Solvers</center></b></td>
 		  </tr>
           <tr>
@@ -57,7 +58,7 @@
             <td>Sat4j is a java library for solving boolean satisfaction and optimization problems. It can solve SAT, MAXSAT, Pseudo-Boolean, and <i>Minimally Unsatisfiable Subset</i> (MUS) problems.</td>    
           </tr>
 		  
-		  <tr>
+		  <tr id="smt">
 		  <td colspan="2" bgcolor="#ededed"><b><center>SMT Solvers</center></b></td>
 		  </tr>
           <tr>
@@ -77,7 +78,7 @@
             <td>A SMT solver for the theories of fixed-size bit-vectors, arrays and uninterpreted functions. Boolector won first place in divisions QF_ABV (main, application track), QF_BV (main track) and QF_UFBV (main, application track) in the SMT competition 2018. </td>         
           </tr>
 		  
-		  <tr>
+		  <tr id="fmf">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Finite Model Finding</center></b></td>
 		  </tr>
           <tr>
@@ -97,7 +98,7 @@
             <td>Mace4 is a program that searches for finite models of first-order formulas. For a given domain size, all instances of the formulas over the domain are constructed. If satisfiability is detected, one or more models are printed.  </td>         
           </tr>
 
-		   <tr>
+		   <tr id="verify">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Verification</center></b></td>
 		  </tr>
           <tr>
@@ -117,7 +118,7 @@
             <td>Leon is an automated system for verifying, repairing, and synthesizing functional Scala programs. </td>         
           </tr>
 		  
-		  <tr>
+		  <tr id="bounded">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Bounded Verification</center></b></td>
 		  </tr>
           <tr>
@@ -133,7 +134,7 @@
             <td>Rubicon is a library for Ruby, Rails, and RSpec that lets you write formal specifications of the behavior of your web apps. Rubicon gives you the quantifiers of first-order logic, so your specifications cover all possible objects of the given type.</td>         
           </tr>
 		  
-		   <tr>
+		   <tr id="symbolic">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Symbolic Execution</center></b></td>
 		  </tr>
           <tr>
@@ -145,7 +146,7 @@
             <td>Java Pathfinder (JPF) is a system to verify executable Java bytecode programs. JPF was developed at the NASA Ames Research Center and open sourced in 2005.  </td>         
           </tr>
 
-		   <tr>
+		   <tr id="mc">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Model Checking</center></b></td>
 		  </tr>
           <tr>
@@ -162,7 +163,7 @@
             <td>NuSMV is new symbolic model checker. NuSMV is a reimplementation and extension of SMV, the first model checker based on BDDs.  </td>         
           </tr>
 
-			<tr>
+			<tr id="synthesis">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Synthesis, Declarative Execution and Fault Localization</center></b></td>
 		  </tr>
           <tr>
@@ -189,7 +190,7 @@
             <td>Bug-Assist takes as input an ANSI-C program annotated with assertions, performs model checking internally to find potential assertion violations, and for each error trace returned by the model checker, returns a small number of lines of code which can be changed to eliminate the error trace.  </td>         
           </tr>
 		  
-		   <tr>
+		   <tr id="solver-aided">
 		  <td colspan="2" bgcolor="#ededed"><b><center>Solver-Aided Languages</center></b></td>
 		  </tr>
           <tr>
